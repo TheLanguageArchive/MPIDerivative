@@ -1,0 +1,22 @@
+<derivative>
+    <outputDirName>Streaming</outputDirName>
+    <filetype>
+        <!-- $command $input $output -->
+        <!-- input and output would be replaced in code MPIDerivative.java -->
+        <video> 
+            <!--  <command>ffmpeg input output</command>          done by gearman worker --> 
+            <outputExtn>mp4</outputExtn>
+            <dsId>MP4</dsId>
+            <mimetype>video/mp4</mimetype>
+        </video>
+        <audio> 
+         <!--   <command>sox input output</command> -->
+            <outputExtn>mp3</outputExtn>
+            <dsId>MP3</dsId>
+            <mimetype>audio/mp3</mimetype>
+        </audio>
+        <image> 
+        </image>     
+        <!-- <other mimetypes> -->
+    </filetype>
+</derivative>
